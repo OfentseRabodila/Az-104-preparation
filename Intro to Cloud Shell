@@ -1,0 +1,20 @@
+Azure Cloud shell
+
+Azure cloud shell is an Azure native web based cli accessed via the azure portal.
+It allows for management of resources on Azure using the command line interface via bash or powershell.
+It is linked with account permissions to prevent malicious actions over resources.
+
+How does Azure cloud shell work
+
+Azure cloud shell allows for remote access to resources without using your administrative device.
+In cloud shell, you can run scripts, automate tasks, access files and manage files.
+It is basically a whole terminal based access to files and tasks, with the ability to write scripts and programs,
+manage resources and automate tasks.
+
+You do not use cloud shell: 
+
+You intend to leave a session open for more than 20 minutes for long running scripts or activities. In these cases, your session is disconnected without warning, and the current state is lost.
+You need admin permissions, such as sudo access, from within the Azure CLI or PowerShell environment.
+You need to install tools that aren't supported in the limited Cloud Shell environment, but instead require an environment such as a custom virtual machine or container.
+You need storage from different regions. You might need to back up and synchronize this content since only one region can have the storage allocated to Azure Cloud Shell.
+You need to open multiple sessions at the same time. Azure Cloud Shell allows only one instance at time and isn't suitable for concurrent work across multiple subscriptions or tenants.
