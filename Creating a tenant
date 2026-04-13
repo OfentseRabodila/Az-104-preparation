@@ -1,0 +1,7 @@
+In this lab I created a Microsoft Entra ID tenant, added users and assigned the users to user groups.
+
+Creating a tenant.
+Creating a is easy. You navigate to entra id, select manage tenants, select new tenant then
+set up the tenant the way you would like it to be.
+
+I set up a microsoft tenant.
